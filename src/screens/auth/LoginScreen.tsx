@@ -100,8 +100,8 @@ export const LoginScreen = ({ navigation }: Props): JSX.Element => {
     <ScrollView style={styles.container} keyboardDismissMode="on-drag">
       <View style={styles.inner}>
         <View style={styles.titleContainer}>
-          <Text style={styles.mainTitle}>New Hope</Text>
-          <Text style={styles.subTitle}>Narimasu</Text>
+          <Text style={styles.mainTitle}>Kurume Bible Fellowship</Text>
+          
         </View>
         {/* <View style={styles.loadingCenter}>
           <Text style={styles.loading}>loading....</Text>
@@ -162,8 +162,8 @@ const styles = StyleSheet.create({
   },
   mainTitle: {
     color: "#800",
-    fontSize: 26,
-    lineHeight: 32,
+    fontSize: 21,
+    lineHeight: 26,
     fontWeight: "600",
     marginTop: 60,
   },
