@@ -30,7 +30,7 @@ export const HomeScreen = ({ navigation }: Props) => {
     }
     navigation.setOptions({
       headerTintColor: "#800",
-      title: "NHN 週報",
+      title: "KBF 週報",
     });
   }, []);
 
